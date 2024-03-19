@@ -1,0 +1,190 @@
+/* Base styles for the periodic table */
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr); /* 18 columns for all groups */
+    gap: 2px; /* Gap between grid items */
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+/* Styles for each table cell */
+.element {
+    background-color: #ccc;
+    padding: 10px;
+    border: 1px solid #aaa;
+    text-align: center;
+}
+/* Fullscreen image/Center the image */
+.tableImage img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+/* Additional styling for specific elements */
+.hydrogen { grid-column: 1; grid-row:1; }
+.lithium { grid-column: 1; grid-row:2; }
+.sodium { grid-column: 1; grid-row:3; }
+.potassium { grid-column: 1; grid-row:4; }
+.rubidium { grid-column: 1; grid-row:5; }
+.cesium { grid-column: 1; grid-row:6;}
+.francium { grid-column: 1; grid-row:7;}
+
+.beryllium { grid-column: 2; grid-row:2;}
+.magnesium { grid-column: 2; grid-row:3;}
+.calcium { grid-column: 2; grid-row:4;}
+.strontium { grid-column: 2; grid-row:5;}
+.barium { grid-column: 2; grid-row:6;}
+.radium { grid-column: 2; grid-row:7;}
+
+.scandium {grid-column: 3; grid-row: 4;}
+.yttrium {grid-column: 3; grid-row: 5;}
+
+.titanium {grid-column: 4; grid-row: 4;}
+.zirconium {grid-column: 4; grid-row: 5;}
+.hafnium {grid-column: 4; grid-row: 6;}
+.rutherfordium {grid-column: 4; grid-row: 7;}
+.lanthanum {grid-column: 4; grid-row: 8;}
+.actinium{grid-column: 4; grid-row: 9;}
+
+.vanadium {grid-column: 5; grid-row: 4;}
+.niobium {grid-column: 5; grid-row: 5;}
+.tantalum {grid-column: 5; grid-row: 6;}
+.dubnium {grid-column: 5; grid-row: 7;}
+.cerium {grid-column: 5; grid-row: 8;}
+.thorium {grid-column: 5; grid-row: 9;}
+
+.chromium {grid-column: 6; grid-row: 4;}
+.molybdenum {grid-column: 6; grid-row: 5;}
+.tungsten {grid-column: 6; grid-row: 6;}
+.seaborgium {grid-column: 6; grid-row: 7;}
+.praseodymium {grid-column: 6; grid-row: 8;}
+.protactinium {grid-column: 6; grid-row: 9;}
+
+.manganese {grid-column: 7; grid-row: 4;}
+.technetium {grid-column: 7; grid-row: 5;}
+.rhenium {grid-column: 7; grid-row: 6;}
+.bohrium {grid-column: 7; grid-row: 7;}
+.neodymium {grid-column: 7; grid-row: 8;}
+.uranium {grid-column: 7; grid-row: 9;}
+
+.iron {grid-column: 8; grid-row: 4;}
+.rutherium {grid-column: 8; grid-row: 5;}
+.osmium {grid-column: 8; grid-row: 6;}
+.hassium {grid-column: 8; grid-row: 7;}
+.promethium {grid-column: 8; grid-row: 8;}
+.neptunium {grid-column: 8; grid-row: 9;}
+
+.cobalt {grid-column: 9; grid-row: 4;}
+.rhodium {grid-column: 9; grid-row: 5;}
+.iridium {grid-column: 9; grid-row: 6;}
+.meitnerium {grid-column: 9; grid-row: 7;}
+.samarium {grid-column: 9; grid-row: 8;}
+.plutonium {grid-column: 9; grid-row: 9;}
+
+.nickel {grid-column: 10; grid-row: 4;}
+.palladium {grid-column: 10; grid-row: 5;}
+.platinium {grid-column: 10; grid-row: 6;}
+.darmstadtium {grid-column: 10; grid-row: 7;}
+.europium {grid-column: 10; grid-row: 8;}
+.americium {grid-column: 10; grid-row: 9;}
+
+.copper {grid-column: 11; grid-row: 4;}
+.silver {grid-column: 11; grid-row: 5;}
+.gold {grid-column: 11; grid-row: 6;}
+.roentgenium {grid-column: 11; grid-row: 7;}
+.gadolinium {grid-column: 11; grid-row: 8;}
+.curium {grid-column: 11; grid-row: 9;}
+
+.zinc {grid-column: 12; grid-row: 4;}
+.cadmium {grid-column: 12; grid-row: 5;}
+.mercury {grid-column: 12; grid-row: 6;}
+.copernicium {grid-column: 12; grid-row: 7;}
+.terbium {grid-column: 12; grid-row: 8;}
+.berkelium {grid-column: 12; grid-row: 9;}
+
+.boron {grid-column: 13; grid-row: 2;}
+.aluminum {grid-column: 13; grid-row: 3;}
+.gallium {grid-column: 13; grid-row: 4;}
+.indium {grid-column: 13; grid-row: 5;}
+.thallium {grid-column: 13; grid-row: 6;}
+.nihonium {grid-column: 13; grid-row: 7;}
+.dysprosium {grid-column: 13; grid-row: 8;}
+.californium {grid-column: 13; grid-row: 9;}
+
+.carbon {grid-column: 14; grid-row: 2;}
+.silicon {grid-column: 14; grid-row: 3;}
+.germanium {grid-column: 14; grid-row: 4;}
+.tin {grid-column: 14; grid-row: 5;}
+.lead {grid-column: 14; grid-row: 6;}
+.flerovium {grid-column: 14; grid-row: 7;}
+.holmium {grid-column: 14; grid-row: 8;}
+.einsteinium {grid-column: 14; grid-row: 9;}
+
+.nitrogen {grid-column: 15; grid-row: 2;}
+.phosphorus {grid-column: 15; grid-row: 3;}
+.arsenic {grid-column: 15; grid-row: 4;}
+.antimony {grid-column: 15; grid-row: 5;}
+.bismuth {grid-column: 15; grid-row: 6;}
+.moscovium {grid-column: 15; grid-row: 7;}
+.erbium {grid-column: 15; grid-row: 8;}
+.fermium {grid-column: 15; grid-row: 9;}
+
+.oxygen {grid-column: 16; grid-row: 2;}
+.sulfur {grid-column: 16; grid-row: 3;}
+.selenium {grid-column: 16; grid-row: 4;}
+.tellurium {grid-column: 16; grid-row: 5;}
+.polonium {grid-column: 16; grid-row: 6;}
+.livermorium {grid-column: 16; grid-row: 7;}
+.thulium {grid-column: 16; grid-row: 8;}
+.mendelevium {grid-column: 16; grid-row: 9;}
+
+.flourine {grid-column: 17; grid-row: 2;}
+.chlorine {grid-column: 17; grid-row: 3;}
+.bromine {grid-column: 17; grid-row: 4;}
+.iodine {grid-column: 17; grid-row: 5;}
+.astatine {grid-column: 17; grid-row: 6;}
+.tennessine {grid-column: 17; grid-row: 7;}
+.ytterbium {grid-column: 17; grid-row: 8;}
+.nobelium {grid-column: 17; grid-row: 9;}
+
+.helium {grid-column: 18; grid-row: 1;}
+.neon {grid-column: 18; grid-row: 2;}
+.argon {grid-column: 18; grid-row: 3;}
+.krypton {grid-column: 18; grid-row: 4;}
+.xenon {grid-column: 18; grid-row: 5;}
+.radon {grid-column: 18; grid-row: 6;}
+.oganesson {grid-column: 18; grid-row: 7;}
+.lutetium {grid-column: 18; grid-row: 8;}
+.lawrencium {grid-column: 18; grid-row: 9;}
+
+/* Hide the image by default */
+.tableImage {
+    display: none;
+}
+
+/* Media query to show/hide elements based on screen width */
+@media screen and (max-width: 900px) {
+    .periodic-table {
+        display: none; /* Hide the periodic table elements */
+    }
+    .tableImage {
+        display: block; /* Show the image */
+        width: 100vw; /* Full width of the viewport */
+        height: 100vh; /* Full height of the viewport */
+        object-fit: contain; /* Maintain aspect ratio and fit within the container */
+        object-position: center; /* Center the image */
+    }
+    @media screen and (max-width: 700px) {
+        .periodic-table {
+            display: grid; /* Change the display property */
+            grid-template-columns: repeat(3, 1fr); /* Change the number of columns */
+        }
+        .element {
+            font-size: 14px; /* Adjust the font size of elements for better readability */
+        }
+        .tableImage {
+            display: none; /* Hide the image */
+        }
+    }
+}
